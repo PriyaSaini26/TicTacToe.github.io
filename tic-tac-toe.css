@@ -1,0 +1,606 @@
+@media only screen and (max-width: 400px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-image: linear-gradient(black,rgb(46, 11, 46),rgb(95, 33, 95),rgb(31, 19, 31));
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .wrapper{
+        position: relative;
+        color:white;
+        width: 100%;
+       
+        align-items: center;
+    }
+    
+    .player-info{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        width: fit-content;
+        padding-left: 32px;
+        margin-left: 25%;
+        margin-top: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .game-info{
+        
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 5%;
+        width: fit-content;
+        margin-left: 24%;
+        margin-top: 85%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        align-content: space-between;
+        aspect-ratio: 1/1;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .box{
+       height: 60px;
+       width: 60px;
+       text-align: center;
+       padding-top: 12px;
+       font-size: xx-large;
+    }
+    
+    .box1, .box2, .box4, .box5{
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    
+    .box3, .box6{
+        border-bottom:  2px solid white;
+    }
+    
+    .box7, .box8{
+        border-right:  2px solid white;
+    }
+    
+    
+    .new-game{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 210px;
+        padding-left: 32px;
+        margin-left: 25%;
+        margin-top: 760px;
+        font-size: 20px;
+        font: bolder;
+        display: none;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .new-game.active{
+        display: block;
+    }
+    
+    .win{
+        background-color: rgba(0, 255, 0, 0.3);
+    }
+   
+    
+}
+
+
+
+@media only screen and (min-width:400px) and (max-width: 600px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-image: linear-gradient(black,rgb(46, 11, 46),rgb(95, 33, 95),rgb(31, 19, 31));
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .wrapper{
+        position: relative;
+        color:white;
+        width: 100%;
+    }
+    
+    .player-info{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        width: fit-content;
+        padding-left: 32px;
+        margin-left: 28%;
+        margin-top: 25px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .game-info{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 30px;
+        /* width: 200px; */
+        margin-left: 26%;
+        margin-top: 55%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        align-content: space-between;
+        aspect-ratio: 1/1;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .box{
+       height: 60px;
+       width: 60px;
+       text-align: center;
+       padding-top: 12px;
+       font-size: xx-large;
+    }
+    
+    .box1, .box2, .box4, .box5{
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    
+    .box3, .box6{
+        border-bottom:  2px solid white;
+    }
+    
+    .box7, .box8{
+        border-right:  2px solid white;
+    }
+    
+    
+    .new-game{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 210px;
+        padding-left: 32px;
+        margin-left: 30%;
+        margin-top: 700px;
+        font-size: 20px;
+        font: bolder;
+        display: none;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .new-game.active{
+        display: block;
+    }
+    
+    .win{
+        background-color: rgba(0, 255, 0, 0.3);
+    }
+   
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-image: linear-gradient(black,rgb(46, 11, 46),rgb(95, 33, 95),rgb(31, 19, 31));
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .wrapper{
+        position: relative;
+        color:white;
+        width: 100%;
+    }
+    
+    .player-info{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        width: fit-content;
+        padding-left: 32px;
+        margin-left: 32%;
+        margin-top: 25px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .game-info{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 30px;
+        /* width: 200px; */
+        margin-left: 30%;
+        margin-top: 35%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        align-content: space-between;
+        aspect-ratio: 1/1;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .box{
+       height: 60px;
+       width: 60px;
+       text-align: center;
+       padding-top: 12px;
+       font-size: xx-large;
+    }
+    
+    .box1, .box2, .box4, .box5{
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    
+    .box3, .box6{
+        border-bottom:  2px solid white;
+    }
+    
+    .box7, .box8{
+        border-right:  2px solid white;
+    }
+    
+    
+    .new-game{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 210px;
+        padding-left: 32px;
+        margin-left: 34%;
+        margin-top: 700px;
+        font-size: 20px;
+        font: bolder;
+        display: none;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .new-game.active{
+        display: block;
+    }
+    
+    .win{
+        background-color: rgba(0, 255, 0, 0.3);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-image: linear-gradient(black,rgb(46, 11, 46),rgb(95, 33, 95),rgb(31, 19, 31));
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .wrapper{
+        position: relative;
+        color:white;
+        width: 100%;
+    }
+    
+    .player-info{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        width: fit-content;
+        padding-left: 32px;
+        margin-left: 33%;
+        margin-top: 25px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .game-info{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 30px;
+        /* width: 200px; */
+        margin-left: 31%;
+        margin-top: 35%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        align-content: space-between;
+        aspect-ratio: 1/1;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .box{
+       height: 60px;
+       width: 60px;
+       text-align: center;
+       padding-top: 12px;
+       font-size: xx-large;
+    }
+    
+    .box1, .box2, .box4, .box5{
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    
+    .box3, .box6{
+        border-bottom:  2px solid white;
+    }
+    
+    .box7, .box8{
+        border-right:  2px solid white;
+    }
+    
+    
+    .new-game{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 210px;
+        padding-left: 32px;
+        margin-left: 35%;
+        margin-top: 700px;
+        font-size: 20px;
+        font: bolder;
+        display: none;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .new-game.active{
+        display: block;
+    }
+    
+    .win{
+        background-color: rgba(0, 255, 0, 0.3);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-image: linear-gradient(black,rgb(46, 11, 46),rgb(95, 33, 95),rgb(31, 19, 31));
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .wrapper{
+        position: relative;
+        color:white;
+        width: 100%;
+    }
+    
+    .player-info{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        width: fit-content;
+        padding-left: 32px;
+        margin-left: 36%;
+        margin-top: 25px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .game-info{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 30px;
+        /* width: 200px; */
+        margin-left: 35%;
+        margin-top: 25%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        align-content: space-between;
+        aspect-ratio: 1/1;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .box{
+       height: 60px;
+       width: 60px;
+       text-align: center;
+       padding-top: 12px;
+       font-size: xx-large;
+    }
+    
+    .box1, .box2, .box4, .box5{
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    
+    .box3, .box6{
+        border-bottom:  2px solid white;
+    }
+    
+    .box7, .box8{
+        border-right:  2px solid white;
+    }
+    
+    
+    .new-game{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 210px;
+        padding-left: 32px;
+        margin-left: 38%;
+        margin-top: 700px;
+        font-size: 20px;
+        font: bolder;
+        display: none;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .new-game.active{
+        display: block;
+    }
+    
+    .win{
+        background-color: rgba(0, 255, 0, 0.3);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-image: url("tic-tac-toe-bg2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .wrapper{
+        position: relative;
+        color:white;
+       
+    }
+    
+    .player-info{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 210px;
+        padding-left: 32px;
+        margin-left: 36%;
+        margin-top: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .game-info{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 30px;
+        /* width: 200px; */
+        margin-left: 35%;
+        margin-top: 15%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        align-content: space-between;
+        aspect-ratio: 1/1;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .box{
+       height: 60px;
+       width: 60px;
+       text-align: center;
+       padding-top: 12px;
+       font-size: xx-large;
+    }
+    
+    .box1, .box2, .box4, .box5{
+        border-right: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    
+    .box3, .box6{
+        border-bottom:  2px solid white;
+    }
+    
+    .box7, .box8{
+        border-right:  2px solid white;
+    }
+    
+    
+    .new-game{
+        position: absolute;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 210px;
+        padding-left: 32px;
+        margin-left: 36%;
+        margin-top: 700px;
+        font-size: 20px;
+        font: bolder;
+        display: none;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .new-game.active{
+        display: block;
+    }
+    
+    .win{
+        background-color: rgba(0, 255, 0, 0.3);
+    }
+}
+
+
+
+
+
